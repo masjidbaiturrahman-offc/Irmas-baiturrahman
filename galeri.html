@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri | Masjid Jami Baiturrahman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><img class="brand-logo" src="images/dkm-logo.jpg" alt="Logo DKM Masjid Jami"><span><strong>Masjid Jami</strong><small>Baiturrahman</small></span></a>
+  <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+  <nav class="nav"><a href="index.html">Beranda</a><a href="index.html#profil">Profil</a><a href="index.html#kegiatan">Kegiatan</a><a class="active" href="galeri.html">Galeri</a><a href="index.html#kontak">Kontak</a></nav>
+</header>
+<main>
+  <section class="page-hero"><span class="eyebrow">Cerita dalam gambar</span><h1>Galeri kegiatan</h1><p>Dokumentasi perjalanan dan kebersamaan jamaah Masjid Jami Baiturrahman.</p></section>
+  <section class="gallery-section section">
+    <div class="gallery-toolbar"><div><span class="eyebrow dark">Dokumentasi</span><h2>Momen kebersamaan</h2></div><div class="filters"><button class="filter active" data-filter="all">Semua</button><button class="filter" data-filter="masjid">Masjid</button><button class="filter" data-filter="kegiatan">Kegiatan</button></div></div>
+    <div class="gallery-grid">
+      <button class="gallery-item" data-category="masjid" data-full="images/masjid-1.png"><img src="images/masjid-1.png" alt="Foto masjid"><span>Masjid Jami Baiturrahman</span></button>
+      <button class="gallery-item" data-category="masjid" data-full="images/2.jpg"><img src="images/2.jpg" alt="Suasana masjid"><span>Suasana masjid</span></button>
+      <button class="gallery-item" data-category="kegiatan" data-full="images/1.jpg"><img src="images/1.jpg" alt="Kegiatan jamaah"><span>Kegiatan jamaah</span></button>
+      <button class="gallery-item" data-category="kegiatan" data-full="images/6.jpg"><img src="images/6.jpg" alt="Kegiatan keagamaan"><span>Kegiatan keagamaan</span></button>
+      <button class="gallery-item" data-category="kegiatan" data-full="images/3.jpg"><img src="images/3.jpg" alt="Ikatan Remaja"><span>Ikatan Remaja</span></button>
+      <button class="gallery-item" data-category="kegiatan" data-full="images/7.jpg"><img src="images/7.jpg" alt="Dokumentasi acara"><span>Dokumentasi acara</span></button>
+    </div>
+    <p class="gallery-hint">Foto contoh belum dimasukkan. Ganti file gambar di folder <b>images</b> dengan dokumentasi masjid milik pengurus.</p>
+    <div class="drive-links"><h3>Arsip dokumentasi</h3><p>Tambahkan tautan Google Drive pengurus di bagian ini agar jamaah dapat melihat dokumentasi lengkap.</p><a class="text-link" href="https://drive.google.com/drive/folders/1f80_3TOmfENz0lPQ02hxew6pn9kh8Xh_" target="_blank" rel="noopener noreferrer" aria-label="Buka arsip dokumentasi 1">Arsip Dokumentasi 1 — buka Google Drive <span>↗</span></a><a class="text-link" href="https://drive.google.com/drive/folders/1d_UwVxM2q5yGkqQAbLIoPpP8b471fq5-" target="_blank" rel="noopener noreferrer" aria-label="Buka arsip dokumentasi 2">Arsip Dokumentasi 2 — buka Google Drive <span>↗</span></a></div>
+  </section>
+</main>
+<div class="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Tutup">×</button><img src="" alt="Foto galeri diperbesar"></div>
+<footer class="footer"><a class="brand footer-brand" href="index.html"><img class="brand-logo" src="images/dkm-logo.jpg" alt="Logo DKM Masjid Jami"><span><strong>Masjid Jami</strong><small>Baiturrahman</small></span></a><p>© <span id="year"></span> Masjid Jami Baiturrahman.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
